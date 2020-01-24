@@ -1,0 +1,1742 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* rma
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-09 19:33+0000\n"
+"PO-Revision-Date: 2019-12-09 19:33+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__out_shipment_count
+msgid "# of Deliveries"
+msgstr "# de entregas"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order__in_shipment_count
+msgid "# of Invoices"
+msgstr "# de Facturas"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order__line_count
+#: model:ir.model.fields,field_description:rma.field_rma_order__out_shipment_count
+msgid "# of Outgoing Shipments"
+msgstr "# de entradaas"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__rma_line_count
+msgid "# of RMA lines associated"
+msgstr "# de líneas de RMA asociadas"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__in_shipment_count
+msgid "# of Shipments"
+msgstr "# de recepciones"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order__supplier_line_count
+msgid "# of Supplier RMAs"
+msgstr "# de RMAs de proveedor"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.report_rma_order_line_document
+msgid "<strong>Contact Person:</strong>"
+msgstr "<strong>Persona de contacto</strong>"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.report_rma_order_line_document
+msgid "<strong>Date Ordered:</strong>"
+msgstr "<strong>Fecha de Pedido:</strong>"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.report_rma_order_line_document
+msgid "<strong>Operation:</strong>"
+msgstr "<strong>Operación:</strong>"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.report_rma_order_line_document
+msgid "<strong>Origin Reference:</strong>"
+msgstr "<strong>Referencia de origen:</strong>""
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.report_rma_order_line_document
+msgid "<strong>Shipping address:</strong>"
+msgstr "<strong>Dirección de Envío</strong>"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order__message_needaction
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__message_needaction
+msgid "Action Needed"
+msgstr "Acción requerida"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_operation__active
+msgid "Active"
+msgstr "Activo"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_add_stock_move_button_supplier_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_add_stock_move_customer_form
+msgid "Add From Stock Move"
+msgstr "Añadir desde movimiento de stock"
+
+#. module: rma
+#: model:ir.actions.act_window,name:rma.action_rma_add_stock_move_customer
+#: model:ir.actions.act_window,name:rma.action_rma_add_stock_move_supplier
+msgid "Add from Stock Move"
+msgstr "Añadir desde movimiento de stock"
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma_order_line__name
+#: model:ir.model.fields,help:rma.field_rma_order_line_make_supplier_rma_item__name
+msgid "Add here the supplier RMA #. Otherwise an internal code is assigned."
+msgstr "Añadir aquí el RMA de proveedor. En otro caso se asignará un código interno"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order__comment
+msgid "Additional Information"
+msgstr "Información adicional"
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma_order_line__customer_address_id
+msgid "Address of the customer in case of Supplier RMA operation dropship."
+msgstr "Dirección del cliente en caso de operación de RMA de proveedor dropship"
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma_order_line__supplier_address_id
+msgid "Address of the supplier in case of Customer RMA operation dropship."
+msgstr "irección del proveedor en caso de operación de RMA de cliente dropship"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_res_config_settings__group_rma_delivery_address
+msgid "Addresses"
+msgstr "Direcciones"
+
+#. module: rma
+#: model:res.groups,name:rma.group_rma_delivery_invoice_address
+msgid "Addresses in RMA"
+msgstr "Direcciones en RMA"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_supplier_form
+msgid "Approve"
+msgstr "Aprobar"
+
+#. module: rma
+#: selection:rma.order.line,state:0
+msgid "Approved"
+msgstr "Aprobado"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__assigned_to
+msgid "Assigned To"
+msgstr "Asignado a"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order__message_attachment_count
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__message_attachment_count
+msgid "Attachment Count"
+msgstr "Conteo de archivos adjuntos"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_supplier_form
+msgid "Back to Draft"
+msgstr "Devolver a borrador"
+
+#. module: rma
+#: selection:rma.operation,receipt_policy:0
+#: selection:rma.order.line,receipt_policy:0
+msgid "Based on Delivered Quantities"
+msgstr "Basado en cantidades entregadas"
+
+#. module: rma
+#: selection:rma.operation,delivery_policy:0
+#: selection:rma.operation,receipt_policy:0
+#: selection:rma.order.line,delivery_policy:0
+#: selection:rma.order.line,receipt_policy:0
+msgid "Based on Ordered Quantities"
+msgstr ""
+
+#. module: rma
+#: selection:rma.operation,delivery_policy:0
+#: selection:rma.order.line,delivery_policy:0
+msgid "Based on Received Quantities"
+msgstr ""
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_add_stock_move_customer
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_add_stock_move_supplier
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_order_line_make_supplier_rma
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_picking
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_picking_out
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_operation__code
+msgid "Code"
+msgstr "Código"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_operation__company_id
+#: model:ir.model.fields,field_description:rma.field_rma_order__company_id
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__company_id
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_supplier_form
+msgid "Company"
+msgstr "Compañía"
+
+#. module: rma
+#: model:ir.model,name:rma.model_res_config_settings
+msgid "Config Settings"
+msgstr "Opciones de Configuración"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_add_stock_move_customer
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_add_stock_move_supplier
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_picking
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_picking_out
+msgid "Confirm"
+msgstr "Confirmar"
+
+#. module: rma
+#: model:ir.model,name:rma.model_res_partner
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_supplier_form
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: rma
+#: model:ir.actions.act_window,name:rma.action_rma_picking_out
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_button_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_supplier_button_form
+#: model:ir.ui.view,name:rma.view_rma_picking_out
+msgid "Create Delivery"
+msgstr ""
+
+#. module: rma
+#: model:ir.actions.act_window,name:rma.action_rma_picking_in
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_button_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_supplier_button_form
+msgid "Create Incoming Shipment"
+msgstr ""
+
+#. module: rma
+#: model:ir.actions.act_window,name:rma.action_rma_order_line_make_supplier_rma
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_supplier_rma_button_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_order_line_make_supplier_rma
+msgid "Create Supplier RMA"
+msgstr ""
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_order_line_make_supplier_rma
+msgid "Create/Update Supplier RMA"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_add_stock_move__create_uid
+#: model:ir.model.fields,field_description:rma.field_rma_make_picking_wizard__create_uid
+#: model:ir.model.fields,field_description:rma.field_rma_make_picking_wizard_item__create_uid
+#: model:ir.model.fields,field_description:rma.field_rma_operation__create_uid
+#: model:ir.model.fields,field_description:rma.field_rma_order__create_uid
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__create_uid
+#: model:ir.model.fields,field_description:rma.field_rma_order_line_make_supplier_rma__create_uid
+#: model:ir.model.fields,field_description:rma.field_rma_order_line_make_supplier_rma_item__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_add_stock_move__create_date
+#: model:ir.model.fields,field_description:rma.field_rma_make_picking_wizard__create_date
+#: model:ir.model.fields,field_description:rma.field_rma_make_picking_wizard_item__create_date
+#: model:ir.model.fields,field_description:rma.field_rma_operation__create_date
+#: model:ir.model.fields,field_description:rma.field_rma_order__create_date
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__create_date
+#: model:ir.model.fields,field_description:rma.field_rma_order_line_make_supplier_rma__create_date
+#: model:ir.model.fields,field_description:rma.field_rma_order_line_make_supplier_rma_item__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__currency_id
+msgid "Currency"
+msgstr "Moneda"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_add_stock_move_customer
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_tree
+#: selection:rma.operation,type:0
+#: selection:rma.order,type:0
+#: selection:rma.order.line,type:0
+msgid "Customer"
+msgstr "Cliente"
+
+#. module: rma
+#: model:stock.picking.type,name:rma.picking_type_rma_dropship_return
+msgid "Customer -> Supplier"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__customer_address_id
+msgid "Customer Address"
+msgstr ""
+
+#. module: rma
+#: model:ir.actions.act_window,name:rma.action_rma_operation_customer
+#: model:ir.ui.menu,name:rma.menu_rma_operation_customer
+msgid "Customer Operations"
+msgstr ""
+
+#. module: rma
+#: model:ir.actions.act_window,name:rma.action_rma_customer_lines
+#: model:ir.ui.menu,name:rma.menu_customer_rma
+#: model:ir.ui.menu,name:rma.menu_rma_line_customer
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_supplier_form
+msgid "Customer RMA"
+msgstr ""
+
+#. module: rma
+#: code:addons/rma/models/stock_warehouse.py:110
+#, python-format
+msgid "Customer RMA Deliveries"
+msgstr ""
+
+#. module: rma
+#: model:ir.actions.act_window,name:rma.action_rma_customer
+#: model:ir.ui.menu,name:rma.menu_rma_act_customer
+msgid "Customer RMA Group"
+msgstr ""
+
+#. module: rma
+#: code:addons/rma/models/stock_warehouse.py:138
+#, python-format
+msgid "Customer RMA Receipts"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__customer_rma_id
+msgid "Customer RMA line"
+msgstr ""
+
+#. module: rma
+#: model:stock.picking.type,name:rma.picking_type_rma_cust_in
+#: model:stock.rule,name:rma.rule_rma_customer_in_pull
+msgid "Customer → RMA"
+msgstr ""
+
+#. module: rma
+#: model:stock.rule,name:rma.rule_rma_dropship_return
+msgid "Customer → Supplier"
+msgstr ""
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.report_rma_order_line_document
+msgid "Customer:"
+msgstr ""
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_add_stock_move_customer
+msgid "Date"
+msgstr "Fecha"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_add_stock_move_customer
+msgid "Date Expected"
+msgstr "Fecha prevista"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_product_category__rma_customer_operation_id
+#: model:ir.model.fields,field_description:rma.field_product_product__rma_customer_operation_id
+#: model:ir.model.fields,field_description:rma.field_product_template__rma_customer_operation_id
+msgid "Default RMA Customer Operation"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_product_category__rma_supplier_operation_id
+#: model:ir.model.fields,field_description:rma.field_product_product__rma_supplier_operation_id
+#: model:ir.model.fields,field_description:rma.field_product_template__rma_supplier_operation_id
+msgid "Default RMA Supplier Operation"
+msgstr ""
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_supplier_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_supplier_form
+msgid "Deliveries"
+msgstr "Entregas"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_operation__delivery_policy
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__delivery_policy
+msgid "Delivery Policy"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_operation__name
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__description
+#: model_terms:ir.ui.view,arch_db:rma.report_rma_order_line_document
+#: model_terms:ir.ui.view,arch_db:rma.rma_operation_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_supplier_form
+msgid "Description"
+msgstr "Descripción"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_order_line_make_supplier_rma
+msgid "Details"
+msgstr "Detalles"
+
+#. module: rma
+#: selection:res.config.settings,group_rma_delivery_address:0
+msgid "Display 3 fields on rma: partner, invoice address, delivery address"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_add_stock_move__display_name
+#: model:ir.model.fields,field_description:rma.field_rma_make_picking_wizard__display_name
+#: model:ir.model.fields,field_description:rma.field_rma_make_picking_wizard_item__display_name
+#: model:ir.model.fields,field_description:rma.field_rma_operation__display_name
+#: model:ir.model.fields,field_description:rma.field_rma_order__display_name
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__display_name
+#: model:ir.model.fields,field_description:rma.field_rma_order_line_make_supplier_rma__display_name
+#: model:ir.model.fields,field_description:rma.field_rma_order_line_make_supplier_rma_item__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: rma
+#: selection:res.config.settings,group_rma_lines:0
+msgid "Do not group RMA lines"
+msgstr ""
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_supplier_form
+#: selection:rma.order.line,state:0
+msgid "Done"
+msgstr "Hecho"
+
+#. module: rma
+#: selection:rma.order.line,state:0
+msgid "Draft"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma_order_line__product_tracking
+msgid "Ensure the traceability of a storable product in your warehouse."
+msgstr "Asegure la trazabilidad de un producto almacenable en su almacén"
+
+#. module: rma
+#: code:addons/rma/wizards/rma_order_line_make_supplier_rma.py:141
+#, python-format
+msgid "Enter a positive quantity."
+msgstr ""
+
+#. module: rma
+#: code:addons/rma/wizards/rma_order_line_make_supplier_rma.py:78
+#, python-format
+msgid "Enter a supplier."
+msgstr ""
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_order_line_make_supplier_rma
+msgid "Existing Supplier RMA to update:"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order__failed_message_ids
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__failed_message_ids
+msgid "Failed Messages"
+msgstr "Mensajes Fallidos"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order__message_follower_ids
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__message_follower_ids
+msgid "Followers"
+msgstr "Seguidores"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order__message_channel_ids
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Seguidores (Canales)"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order__message_partner_ids
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seguidores (Empresas)"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_supplier_form
+msgid "General"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma_order_line__sequence
+msgid "Gives the sequence of this line when displaying the rma."
+msgstr ""
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_rma_filter
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_rma_line_filter
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order__name
+msgid "Group Number"
+msgstr ""
+
+#. module: rma
+#: selection:res.config.settings,group_rma_lines:0
+msgid "Group RMA lines in one RMA group"
+msgstr ""
+
+#. module: rma
+#: code:addons/rma/models/rma_order_line.py:629
+#, python-format
+msgid "Group partner and RMA's partner must be the same."
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_res_config_settings__group_rma_lines
+msgid "Grouping"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_add_stock_move__id
+#: model:ir.model.fields,field_description:rma.field_rma_make_picking_wizard__id
+#: model:ir.model.fields,field_description:rma.field_rma_make_picking_wizard_item__id
+#: model:ir.model.fields,field_description:rma.field_rma_operation__id
+#: model:ir.model.fields,field_description:rma.field_rma_order__id
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__id
+#: model:ir.model.fields,field_description:rma.field_rma_order_line_make_supplier_rma__id
+#: model:ir.model.fields,field_description:rma.field_rma_order_line_make_supplier_rma_item__id
+msgid "ID"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma_order__message_unread
+#: model:ir.model.fields,help:rma.field_rma_order_line__message_unread
+msgid "If checked new messages require your attention."
+msgstr "Si está marcado, hay nuevos mensajes que requieren su atención"
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma_order__message_needaction
+#: model:ir.model.fields,help:rma.field_rma_order_line__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Si está marcado hay nuevos mensajes que requieren su atención."
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma_order__message_has_error
+#: model:ir.model.fields,help:rma.field_rma_order_line__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Si se encuentra marcado, algunos mensajes tienen error de envío."
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_stock_warehouse__rma_in_this_wh
+msgid "If set, it will create RMA location, picking types and routes for this warehouse."
+msgstr ""
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.rma_operation_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_supplier_form
+msgid "Inbound"
+msgstr "Entrante"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_operation__in_route_id
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__in_route_id
+msgid "Inbound Route"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_operation__in_warehouse_id
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__in_warehouse_id
+msgid "Inbound Warehouse"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__qty_incoming
+msgid "Incoming Qty"
+msgstr ""
+
+#. module: rma
+#: model:ir.model,name:rma.model_stock_location_route
+msgid "Inventory Routes"
+msgstr "Rutas de inventario"
+
+#. module: rma
+#: selection:res.config.settings,group_rma_delivery_address:0
+msgid "Invoicing and shipping addresses are always the same (Example: services companies)"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order__message_is_follower
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__message_is_follower
+msgid "Is Follower"
+msgstr "Es un seguidor"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_make_picking_wizard__item_ids
+#: model:ir.model.fields,field_description:rma.field_rma_order_line_make_supplier_rma__item_ids
+msgid "Items"
+msgstr ""
+
+#. module: rma
+#: model:ir.model,name:rma.model_rma_make_picking_wizard_item
+msgid "Items to receive"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_add_stock_move____last_update
+#: model:ir.model.fields,field_description:rma.field_rma_make_picking_wizard____last_update
+#: model:ir.model.fields,field_description:rma.field_rma_make_picking_wizard_item____last_update
+#: model:ir.model.fields,field_description:rma.field_rma_operation____last_update
+#: model:ir.model.fields,field_description:rma.field_rma_order____last_update
+#: model:ir.model.fields,field_description:rma.field_rma_order_line____last_update
+#: model:ir.model.fields,field_description:rma.field_rma_order_line_make_supplier_rma____last_update
+#: model:ir.model.fields,field_description:rma.field_rma_order_line_make_supplier_rma_item____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_add_stock_move__write_uid
+#: model:ir.model.fields,field_description:rma.field_rma_make_picking_wizard__write_uid
+#: model:ir.model.fields,field_description:rma.field_rma_make_picking_wizard_item__write_uid
+#: model:ir.model.fields,field_description:rma.field_rma_operation__write_uid
+#: model:ir.model.fields,field_description:rma.field_rma_order__write_uid
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__write_uid
+#: model:ir.model.fields,field_description:rma.field_rma_order_line_make_supplier_rma__write_uid
+#: model:ir.model.fields,field_description:rma.field_rma_order_line_make_supplier_rma_item__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_add_stock_move__write_date
+#: model:ir.model.fields,field_description:rma.field_rma_make_picking_wizard__write_date
+#: model:ir.model.fields,field_description:rma.field_rma_make_picking_wizard_item__write_date
+#: model:ir.model.fields,field_description:rma.field_rma_operation__write_date
+#: model:ir.model.fields,field_description:rma.field_rma_order__write_date
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__write_date
+#: model:ir.model.fields,field_description:rma.field_rma_order_line_make_supplier_rma__write_date
+#: model:ir.model.fields,field_description:rma.field_rma_order_line_make_supplier_rma_item__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__lot_id
+msgid "Lot/Serial Number"
+msgstr "Lote/Número de serie"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order__message_main_attachment_id
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Adjuntos principales"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order__message_has_error
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__message_has_error
+msgid "Message Delivery error"
+msgstr "Error de Envío de Mensaje"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order__message_ids
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__message_ids
+msgid "Messages"
+msgstr "Mensajes"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_rma_line_filter
+msgid "My RMAs"
+msgstr ""
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_order_line_make_supplier_rma
+msgid "New RMA details:"
+msgstr ""
+
+#. module: rma
+#: code:addons/rma/wizards/rma_make_picking.py:186
+#, python-format
+msgid "No deliveries needed for this operation"
+msgstr ""
+
+#. module: rma
+#: code:addons/rma/wizards/rma_make_picking.py:121
+#, python-format
+msgid "No route specified"
+msgstr ""
+
+#. module: rma
+#: code:addons/rma/wizards/rma_make_picking.py:182
+#, python-format
+msgid "No shipments needed for this operation"
+msgstr ""
+
+#. module: rma
+#: code:addons/rma/wizards/rma_make_picking.py:123
+#, python-format
+msgid "No warehouse specified"
+msgstr ""
+
+#. module: rma
+#: selection:rma.operation,delivery_policy:0
+#: selection:rma.operation,receipt_policy:0
+#: selection:rma.order.line,delivery_policy:0
+#: selection:rma.order.line,receipt_policy:0
+msgid "Not required"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order__message_needaction_counter
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Número de acciones"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order__message_has_error_counter
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__message_has_error_counter
+msgid "Number of error"
+msgstr "Número de error"
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma_order__message_needaction_counter
+#: model:ir.model.fields,help:rma.field_rma_order_line__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Número de mensajes que requieren una acción"
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma_order__message_has_error_counter
+#: model:ir.model.fields,help:rma.field_rma_order_line__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Número de mensajes con error de envío"
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma_order__message_unread_counter
+#: model:ir.model.fields,help:rma.field_rma_order_line__message_unread_counter
+msgid "Number of unread messages"
+msgstr "Número de mensajes no leidos"
+
+#. module: rma
+#: selection:product.category,rma_approval_policy:0
+msgid "One step"
+msgstr ""
+
+#. module: rma
+#: code:addons/rma/wizards/rma_make_picking.py:49
+#, python-format
+msgid "Only RMA lines from the same partner can be processed at the same time"
+msgstr ""
+
+#. module: rma
+#: code:addons/rma/wizards/rma_order_line_make_supplier_rma.py:69
+#, python-format
+msgid "Only RMA lines from the same supplier can be processed at the same time"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__operation_id
+#: model:ir.model.fields,field_description:rma.field_rma_order_line_make_supplier_rma_item__operation_id
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_supplier_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_rma_line_filter
+msgid "Operation"
+msgstr "Operación"
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_product_category__rma_approval_policy
+#: model:ir.model.fields,help:rma.field_product_product__rma_approval_policy
+#: model:ir.model.fields,help:rma.field_product_template__rma_approval_policy
+msgid "Options: \n"
+" * One step: Always auto-approve RMAs that only contain products within categories with this policy.\n"
+"* Two steps: A RMA containing a product within a category with this policy will request the RMA manager approval."
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order__date_rma
+msgid "Order Date"
+msgstr "Fecha de pedido"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_supplier_form
+msgid "Origin"
+msgstr "Origen"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_form
+msgid "Origin Inv"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__reference_move_id
+msgid "Originating Stock Move"
+msgstr ""
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_supplier_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_supplier_form
+msgid "Other Info"
+msgstr "Otra Información"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.rma_operation_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_supplier_form
+msgid "Outbound"
+msgstr "Saliente"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_operation__out_route_id
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__out_route_id
+msgid "Outbound Route"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_operation__out_warehouse_id
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__out_warehouse_id
+msgid "Outbound Warehouse"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__qty_outgoing
+msgid "Outgoing Qty"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_add_stock_move__partner_id
+#: model:ir.model.fields,field_description:rma.field_rma_order__partner_id
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__partner_id
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_rma_filter
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_rma_line_filter
+msgid "Partner"
+msgstr "Empresa"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order__reference
+msgid "Partner Reference"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__delivery_address_id
+msgid "Partner delivery address"
+msgstr ""
+
+#. module: rma
+#: code:addons/rma/wizards/rma_add_stock_move.py:65
+#: code:addons/rma/wizards/rma_order_line_make_supplier_rma.py:103
+#, python-format
+msgid "Please define a warehouse with a default RMA location"
+msgstr ""
+
+#. module: rma
+#: code:addons/rma/models/rma_order_line.py:410
+#, python-format
+msgid "Please define a warehouse with a default RMA location."
+msgstr ""
+
+#. module: rma
+#: code:addons/rma/wizards/rma_add_stock_move.py:58
+#: code:addons/rma/wizards/rma_order_line_make_supplier_rma.py:96
+#, python-format
+msgid "Please define an RMA route"
+msgstr ""
+
+#. module: rma
+#: code:addons/rma/models/rma_order_line.py:402
+#, python-format
+msgid "Please define an RMA route."
+msgstr ""
+
+#. module: rma
+#: code:addons/rma/wizards/rma_add_stock_move.py:52
+#, python-format
+msgid "Please define an operation first"
+msgstr ""
+
+#. module: rma
+#: code:addons/rma/models/rma_order_line.py:396
+#, python-format
+msgid "Please define an operation first."
+msgstr ""
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.rma_operation_form
+msgid "Policies"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__price_unit
+msgid "Price Unit"
+msgstr ""
+
+#. module: rma
+#: model:ir.model,name:rma.model_procurement_group
+msgid "Procurement Group"
+msgstr "Grupo de abastecimiento"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_make_picking_wizard_item__product_id
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__product_id
+#: model:ir.model.fields,field_description:rma.field_rma_order_line_make_supplier_rma_item__product_id
+#: model_terms:ir.ui.view,arch_db:rma.report_rma_order_line_document
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_supplier_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_rma_line_filter
+msgid "Product"
+msgstr "Producto"
+
+#. module: rma
+#: model:ir.model,name:rma.model_product_category
+msgid "Product Category"
+msgstr "Categoría de producto"
+
+#. module: rma
+#: model:ir.model,name:rma.model_product_template
+msgid "Product Template"
+msgstr "Plantilla de producto"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__qty_delivered
+msgid "Qty Delivered"
+msgstr "Ctdad Enviada"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__qty_received
+msgid "Qty Received"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__qty_to_deliver
+msgid "Qty To Deliver"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__qty_to_receive
+msgid "Qty To Receive"
+msgstr "Ctdad. a recibir"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__qty_in_supplier_rma
+msgid "Qty in Supplier RMA"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__qty_to_supplier_rma
+msgid "Qty to send to Supplier RMA"
+msgstr ""
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_supplier_form
+msgid "Quantities"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order_line_make_supplier_rma_item__product_qty
+#: model_terms:ir.ui.view,arch_db:rma.report_rma_order_line_document
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_supplier_form
+msgid "Quantity"
+msgstr "Cantidad"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_make_picking_wizard_item__product_qty
+msgid "Quantity Ordered"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_make_picking_wizard_item__qty_to_deliver
+msgid "Quantity To Deliver"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_make_picking_wizard_item__qty_to_receive
+msgid "Quantity to Receive"
+msgstr ""
+
+#. module: rma
+#: model:ir.actions.report,name:rma.rma_order_line_report
+#: model:ir.model,name:rma.model_rma_order_line
+#: model:ir.model.fields,field_description:rma.field_procurement_group__rma_id
+#: model:ir.module.category,name:rma.module_category_rma
+#: model:ir.ui.menu,name:rma.menu_rma_config
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_supplier_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_supplier_tree
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_tree
+msgid "RMA"
+msgstr ""
+
+#. module: rma
+#: code:addons/rma/wizards/rma_make_picking.py:177
+#, python-format
+msgid "RMA %s is not approved"
+msgstr ""
+
+#. module: rma
+#: model:stock.picking.type,name:rma.picking_type_rma_sup_out
+msgid "RMA -> Supplier"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_product_category__rma_approval_policy
+#: model:ir.model.fields,field_description:rma.field_product_product__rma_approval_policy
+#: model:ir.model.fields,field_description:rma.field_product_template__rma_approval_policy
+msgid "RMA Approval Policy"
+msgstr ""
+
+#. module: rma
+#: model:stock.location.route,name:rma.route_rma_customer
+msgid "RMA Customer"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_stock_warehouse__rma_customer_in_pull_id
+msgid "RMA Customer In Rule"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_stock_warehouse__rma_customer_out_pull_id
+msgid "RMA Customer Out Rule"
+msgstr ""
+
+#. module: rma
+#: model:res.groups,name:rma.group_rma_customer_user
+msgid "RMA Customer User"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_stock_warehouse__rma_cust_in_type_id
+msgid "RMA Customer in Type"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_stock_warehouse__rma_cust_out_type_id
+msgid "RMA Customer out Type"
+msgstr ""
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_rma_filter
+msgid "RMA Date"
+msgstr ""
+
+#. module: rma
+#: model:stock.location.route,name:rma.route_rma_dropship
+msgid "RMA Dropship"
+msgstr ""
+
+#. module: rma
+#: model:ir.model,name:rma.model_rma_order
+#: model:ir.model.fields,field_description:rma.field_rma_make_picking_wizard_item__rma_id
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__rma_id
+msgid "RMA Group"
+msgstr ""
+
+#. module: rma
+#: model:res.groups,name:rma.group_rma_groups
+msgid "RMA Groups"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order_line_make_supplier_rma_item__line_id
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_supplier_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_supplier_tree
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_tree
+msgid "RMA Line"
+msgstr ""
+
+#. module: rma
+#: model:ir.model,name:rma.model_rma_order_line_make_supplier_rma
+#: model:ir.ui.view,name:rma.view_rma_order_line_make_supplier_rma
+msgid "RMA Line Make Supplier RMA"
+msgstr ""
+
+#. module: rma
+#: model:ir.model,name:rma.model_rma_order_line_make_supplier_rma_item
+msgid "RMA Line Make Supplier RMA Item"
+msgstr ""
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_picking
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_picking_out
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_supplier_form
+msgid "RMA Lines"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_stock_warehouse__lot_rma_id
+msgid "RMA Location"
+msgstr ""
+
+#. module: rma
+#: model:res.groups,name:rma.group_rma_manager
+msgid "RMA Manager"
+msgstr ""
+
+#. module: rma
+#: model:ir.model,name:rma.model_rma_operation
+msgid "RMA Operation"
+msgstr ""
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.rma_operation_form
+#: model_terms:ir.ui.view,arch_db:rma.rma_operation_tree
+msgid "RMA Operations"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_add_stock_move__rma_id
+#: model:ir.model.fields,field_description:rma.field_rma_order_line_make_supplier_rma_item__rma_id
+msgid "RMA Order"
+msgstr ""
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.stock_location_route_form_view_inherit_rma_stock
+msgid "RMA Order Lines"
+msgstr ""
+
+#. module: rma
+#: model:stock.location.route,name:rma.route_rma_supplier
+msgid "RMA Supplier"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_stock_warehouse__rma_supplier_in_pull_id
+msgid "RMA Supplier In Rule"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_stock_warehouse__rma_supplier_out_pull_id
+msgid "RMA Supplier Out Rule"
+msgstr ""
+
+#. module: rma
+#: model:res.groups,name:rma.group_rma_supplier_user
+msgid "RMA Supplier User"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_stock_warehouse__rma_sup_in_type_id
+msgid "RMA Supplier in Type"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_stock_warehouse__rma_sup_out_type_id
+msgid "RMA Supplier out Type"
+msgstr ""
+
+#. module: rma
+#: code:addons/rma/models/rma_order_line.py:460
+#, python-format
+msgid "RMA customer and originating stock move customer doesn't match."
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_stock_warehouse__rma_in_this_wh
+msgid "RMA in this Warehouse"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_procurement_group__rma_line_id
+#: model:ir.model.fields,field_description:rma.field_stock_move__rma_line_id
+#: model:ir.model.fields,field_description:rma.field_stock_rule__rma_line_id
+msgid "RMA line"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_operation__rma_line_ids
+#: model:ir.model.fields,field_description:rma.field_rma_order__rma_line_ids
+msgid "RMA lines"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_make_picking_wizard_item__line_id
+msgid "RMA order Line"
+msgstr ""
+
+#. module: rma
+#: model:stock.picking.type,name:rma.picking_type_rma_cust_out
+#: model:stock.rule,name:rma.rule_rma_customer_out_pull
+msgid "RMA → Customer"
+msgstr ""
+
+#. module: rma
+#: model:stock.rule,name:rma.rule_rma_supplier_out_pull
+msgid "RMA → Supplier"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_res_partner__rma_line_ids
+#: model:ir.model.fields,field_description:rma.field_res_users__rma_line_ids
+#: model_terms:ir.ui.view,arch_db:rma.view_partner_form
+msgid "RMAs"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_operation__receipt_policy
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__receipt_policy
+msgid "Receipts Policy"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__name
+#: model:ir.model.fields,field_description:rma.field_rma_order_line_make_supplier_rma_item__name
+msgid "Reference"
+msgstr "Referencia"
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma_order_line__origin
+msgid "Reference of the document that produced this rma."
+msgstr ""
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_form
+msgid "Rel. RMA Lines"
+msgstr ""
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_supplier_form
+msgid "Request Approval"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__requested_by
+msgid "Requested By"
+msgstr "Solicitado Por"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.res_config_settings_view_form
+msgid "Return Merchandise Authorization"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__product_qty
+msgid "Return Qty"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_res_partner__rma_line_count
+#: model:ir.model.fields,field_description:rma.field_res_users__rma_line_count
+msgid "Rma Line Count"
+msgstr ""
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_supplier_form
+msgid "Routes"
+msgstr "Rutas"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_rma_filter
+msgid "Search RMA"
+msgstr ""
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_rma_line_filter
+msgid "Search RMA line"
+msgstr ""
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_add_stock_move_customer
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_add_stock_move_supplier
+msgid "Select Move"
+msgstr ""
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_add_stock_move_customer
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_add_stock_move_supplier
+msgid "Select Stock Moves to add"
+msgstr ""
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_picking
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_picking_out
+msgid "Select lines for picking"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_stock_location_route__rma_selectable
+msgid "Selectable on RMA Lines"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_operation__location_id
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__location_id
+msgid "Send To This Company Location"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__sequence
+msgid "Sequence"
+msgstr "Secuencia"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_supplier_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_supplier_form
+msgid "Shipments"
+msgstr "Envíos"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__origin
+msgid "Source Document"
+msgstr "Documento origen"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__state
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_rma_line_filter
+msgid "State"
+msgstr "Estado"
+
+#. module: rma
+#: model:ir.model,name:rma.model_stock_move
+msgid "Stock Move"
+msgstr "Movimiento de existencias"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_add_stock_move__move_ids
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__move_ids
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_supplier_form
+msgid "Stock Moves"
+msgstr "Movimientos de stock"
+
+#. module: rma
+#: model:ir.model,name:rma.model_stock_rule
+msgid "Stock Rule"
+msgstr "Regla de Inventario"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order_line_make_supplier_rma__partner_id
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_add_stock_move_supplier
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_supplier_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_supplier_form
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_supplier_tree
+#: selection:rma.operation,type:0
+#: selection:rma.order,type:0
+#: selection:rma.order.line,type:0
+msgid "Supplier"
+msgstr "Proveedor"
+
+#. module: rma
+#: model:stock.picking.type,name:rma.picking_type_rma_dropship
+msgid "Supplier -> Customer"
+msgstr ""
+
+#. module: rma
+#: model:stock.picking.type,name:rma.picking_type_rma_sup_in
+msgid "Supplier -> RMA"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__supplier_address_id
+msgid "Supplier Address"
+msgstr ""
+
+#. module: rma
+#: model:ir.actions.act_window,name:rma.action_rma_operation_supplier
+#: model:ir.ui.menu,name:rma.menu_rma_operation_supplier
+msgid "Supplier Operations"
+msgstr ""
+
+#. module: rma
+#: code:addons/rma/wizards/rma_order_line_make_supplier_rma.py:153
+#: model:ir.actions.act_window,name:rma.action_rma_supplier_lines
+#: model:ir.ui.menu,name:rma.menu_rma_line_supplier
+#: model:ir.ui.menu,name:rma.menu_supplier_rma
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_line_form
+#, python-format
+msgid "Supplier RMA"
+msgstr ""
+
+#. module: rma
+#: code:addons/rma/models/stock_warehouse.py:124
+#, python-format
+msgid "Supplier RMA Deliveries"
+msgstr ""
+
+#. module: rma
+#: model:ir.actions.act_window,name:rma.action_rma_supplier
+#: model:ir.ui.menu,name:rma.menu_rma_act_supplier
+msgid "Supplier RMA Group"
+msgstr ""
+
+#. module: rma
+#: code:addons/rma/wizards/rma_order_line_make_supplier_rma.py:164
+#, python-format
+msgid "Supplier RMA Line"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order_line_make_supplier_rma__supplier_rma_id
+msgid "Supplier RMA Order Group"
+msgstr ""
+
+#. module: rma
+#: code:addons/rma/models/stock_warehouse.py:152
+#, python-format
+msgid "Supplier RMA Receipts"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__supplier_rma_line_ids
+msgid "Supplier Rma Line"
+msgstr ""
+
+#. module: rma
+#: model:stock.rule,name:rma.rule_rma_dropship
+msgid "Supplier → Customer"
+msgstr ""
+
+#. module: rma
+#: model:stock.rule,name:rma.rule_rma_supplier_in_pull
+msgid "Supplier → RMA"
+msgstr ""
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.report_rma_order_line_document
+msgid "Supplier:"
+msgstr ""
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.report_rma_order_line_document
+msgid "Term and conditions"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__conditions
+msgid "Terms and conditions"
+msgstr "Términos y condiciones"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_operation__customer_to_supplier
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__customer_to_supplier
+msgid "The customer will send to the supplier"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma_order__reference
+msgid "The partner reference of this RMA order."
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_operation__supplier_to_customer
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__supplier_to_customer
+msgid "The supplier will send to the customer"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma_order_line__delivery_address_id
+msgid "This address will be used to deliver repaired or replacement products."
+msgstr ""
+
+#. module: rma
+#: selection:rma.order.line,state:0
+msgid "To Approve"
+msgstr ""
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_rma_line_filter
+msgid "To Deliver"
+msgstr ""
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_rma_line_filter
+msgid "To Receive"
+msgstr ""
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_rma_line_filter
+msgid "To Send to Supplier RMA"
+msgstr ""
+
+#. module: rma
+#: code:addons/rma/models/rma_order_line.py:442
+#, python-format
+msgid "To manage lots use RMA groups."
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__product_tracking
+msgid "Tracking"
+msgstr "Seguimiento"
+
+#. module: rma
+#: model:ir.model,name:rma.model_stock_picking
+msgid "Transfer"
+msgstr "Albarán"
+
+#. module: rma
+#: selection:product.category,rma_approval_policy:0
+msgid "Two steps"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order__type
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__type
+msgid "Type"
+msgstr "Tipo"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__under_warranty
+msgid "Under Warranty?"
+msgstr ""
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.report_rma_order_line_document
+msgid "Unit Price"
+msgstr "Precio unitario"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_make_picking_wizard_item__uom_id
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__uom_id
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_add_stock_move_customer
+msgid "Unit of Measure"
+msgstr "Unidad de medida"
+
+#. module: rma
+#: code:addons/rma/wizards/rma_make_picking.py:90
+#, python-format
+msgid "Unknown delivery address"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order__message_unread
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__message_unread
+msgid "Unread Messages"
+msgstr "Mensajes sin leer"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order__message_unread_counter
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Contador de mensajes sin leer"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order_line_make_supplier_rma_item__uom_id
+msgid "UoM"
+msgstr ""
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_operation__type
+msgid "Used in RMA of this type"
+msgstr ""
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.report_rma_order_line_document
+msgid "VAT:"
+msgstr ""
+
+#. module: rma
+#: model:ir.model,name:rma.model_stock_warehouse
+msgid "Warehouse"
+msgstr "Almacén"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_order__website_message_ids
+#: model:ir.model.fields,field_description:rma.field_rma_order_line__website_message_ids
+msgid "Website Messages"
+msgstr "Mensajes del sitio web"
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma_order__website_message_ids
+#: model:ir.model.fields,help:rma.field_rma_order_line__website_message_ids
+msgid "Website communication history"
+msgstr "Historial de comunicaciones del sitio web"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_make_picking_wizard_item__wiz_id
+#: model:ir.model.fields,field_description:rma.field_rma_order_line_make_supplier_rma_item__wiz_id
+msgid "Wizard"
+msgstr "Asistente"
+
+#. module: rma
+#: model:ir.model,name:rma.model_rma_add_stock_move
+msgid "Wizard to add rma lines from pickings"
+msgstr ""
+
+#. module: rma
+#: model:ir.model,name:rma.model_rma_make_picking_wizard
+msgid "Wizard to create pickings from rma lines"
+msgstr ""
+
+#. module: rma
+#: code:addons/rma/models/rma_order_line.py:481
+#, python-format
+msgid "You cannot reset to draft a RMA with related pickings."
+msgstr ""
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_add_stock_move_customer
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_add_stock_move_supplier
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_picking
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_picking_out
+msgid "or"
+msgstr "o"
+
+#. module: rma
+#: model:ir.ui.view,name:rma.product_category_form_view
+msgid "product.category.form"
+msgstr ""
+
+#. module: rma
+#: model:ir.ui.view,name:rma.product_template_form_view
+msgid "product.template.stock.property.form.inherit"
+msgstr ""
+
+#. module: rma
+#: model:ir.ui.view,name:rma.report_rma_order_line
+msgid "report_rma_order_line"
+msgstr ""
+
+#. module: rma
+#: model:ir.ui.view,name:rma.report_rma_order_line_document
+msgid "report_rma_order_line_document"
+msgstr ""
+
+#. module: rma
+#: model:ir.ui.view,name:rma.view_partner_form
+msgid "res.partner.form - rma"
+msgstr ""
+
+#. module: rma
+#: model:ir.ui.view,name:rma.view_rma_add_stock_move_customer
+msgid "rma.add.stock.move.customer"
+msgstr ""
+
+#. module: rma
+#: model:ir.ui.view,name:rma.view_rma_add_stock_move_supplier
+msgid "rma.add.stock.move.supplier"
+msgstr ""
+
+#. module: rma
+#: model:ir.ui.view,name:rma.view_move_form
+msgid "rma.move.form"
+msgstr ""
+
+#. module: rma
+#: model:ir.ui.view,name:rma.rma_operation_form
+msgid "rma.operation.form"
+msgstr ""
+
+#. module: rma
+#: model:ir.ui.view,name:rma.rma_operation_tree
+msgid "rma.operation.tree"
+msgstr ""
+
+#. module: rma
+#: model:ir.ui.view,name:rma.view_rma_form
+msgid "rma.order.form"
+msgstr ""
+
+#. module: rma
+#: model:ir.ui.view,name:rma.view_rma_add_stock_move_customer_form
+msgid "rma.order.form - stock.move wizard"
+msgstr ""
+
+#. module: rma
+#: model:ir.ui.view,name:rma.view_rma_line_button_form
+#: model:ir.ui.view,name:rma.view_rma_line_form
+msgid "rma.order.line.form"
+msgstr ""
+
+#. module: rma
+#: model:ir.ui.view,name:rma.view_rma_rma_line_filter
+msgid "rma.order.line.select"
+msgstr ""
+
+#. module: rma
+#: model:ir.ui.view,name:rma.view_rma_line_supplier_button_form
+#: model:ir.ui.view,name:rma.view_rma_line_supplier_form
+msgid "rma.order.line.supplier.form"
+msgstr ""
+
+#. module: rma
+#: model:ir.ui.view,name:rma.view_rma_line_supplier_rma_button_form
+msgid "rma.order.line.supplier.rma.form"
+msgstr ""
+
+#. module: rma
+#: model:ir.ui.view,name:rma.view_rma_line_supplier_tree
+msgid "rma.order.line.supplier.tree"
+msgstr ""
+
+#. module: rma
+#: model:ir.ui.view,name:rma.view_rma_line_tree
+msgid "rma.order.line.tree"
+msgstr ""
+
+#. module: rma
+#: model:ir.ui.view,name:rma.view_rma_rma_filter
+msgid "rma.order.select"
+msgstr ""
+
+#. module: rma
+#: model:ir.ui.view,name:rma.view_rma_supplier_form
+msgid "rma.order.supplier.form"
+msgstr ""
+
+#. module: rma
+#: model:ir.ui.view,name:rma.view_rma_add_stock_move_button_supplier_form
+msgid "rma.order.supplier.form - stock.move wizard"
+msgstr ""
+
+#. module: rma
+#: model:ir.ui.view,name:rma.view_rma_supplier_tree
+msgid "rma.order.supplier.tree"
+msgstr ""
+
+#. module: rma
+#: model:ir.ui.view,name:rma.view_rma_tree
+msgid "rma.order.tree"
+msgstr ""
+
+#. module: rma
+#: model:ir.ui.view,name:rma.view_rma_picking
+msgid "rma_picking"
+msgstr ""
+
+#. module: rma
+#: model:ir.ui.view,name:rma.res_config_settings_view_form
+msgid "stock.config.settings.rma"
+msgstr ""
+
+#. module: rma
+#: model:ir.ui.view,name:rma.stock_location_route_form_view_inherit_rma_stock
+msgid "stock.location.route.form"
+msgstr ""
+
+#. module: rma
+#: model:ir.ui.view,name:rma.view_move_picking_form
+msgid "stock.move.form"
+msgstr ""
+
+#. module: rma
+#: model:ir.ui.view,name:rma.view_warehouse_form
+msgid "view_warehouse_form"
+msgstr ""
+
