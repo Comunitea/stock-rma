@@ -165,7 +165,7 @@ msgstr "Basado en cantidades entregadas"
 #: selection:rma.order.line,delivery_policy:0
 #: selection:rma.order.line,receipt_policy:0
 msgid "Based on Ordered Quantities"
-msgstr ""
+msgstr "Basado en cantidades pedidas"
 
 #. module: rma
 #: selection:rma.operation,delivery_policy:0
@@ -222,21 +222,21 @@ msgstr "Contacto"
 #: model_terms:ir.ui.view,arch_db:rma.view_rma_line_supplier_button_form
 #: model:ir.ui.view,name:rma.view_rma_picking_out
 msgid "Create Delivery"
-msgstr ""
+msgstr "Crear envío a cliente"
 
 #. module: rma
 #: model:ir.actions.act_window,name:rma.action_rma_picking_in
 #: model_terms:ir.ui.view,arch_db:rma.view_rma_line_button_form
 #: model_terms:ir.ui.view,arch_db:rma.view_rma_line_supplier_button_form
 msgid "Create Incoming Shipment"
-msgstr ""
+msgstr "Crear albarán de entrada"
 
 #. module: rma
 #: model:ir.actions.act_window,name:rma.action_rma_order_line_make_supplier_rma
 #: model_terms:ir.ui.view,arch_db:rma.view_rma_line_supplier_rma_button_form
 #: model_terms:ir.ui.view,arch_db:rma.view_rma_order_line_make_supplier_rma
 msgid "Create Supplier RMA"
-msgstr ""
+msgstr "Crear RMA de proveedor"
 
 #. module: rma
 #: model_terms:ir.ui.view,arch_db:rma.view_rma_order_line_make_supplier_rma
@@ -305,7 +305,7 @@ msgstr ""
 #: model:ir.ui.menu,name:rma.menu_rma_line_customer
 #: model_terms:ir.ui.view,arch_db:rma.view_rma_line_supplier_form
 msgid "Customer RMA"
-msgstr ""
+msgstr "RMA de cliente"
 
 #. module: rma
 #: code:addons/rma/models/stock_warehouse.py:110
@@ -382,7 +382,7 @@ msgstr "Entregas"
 #: model:ir.model.fields,field_description:rma.field_rma_operation__delivery_policy
 #: model:ir.model.fields,field_description:rma.field_rma_order_line__delivery_policy
 msgid "Delivery Policy"
-msgstr ""
+msgstr "Política de envío"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma_operation__name
@@ -431,7 +431,7 @@ msgstr "Hecho"
 #. module: rma
 #: selection:rma.order.line,state:0
 msgid "Draft"
-msgstr ""
+msgstr "En borrador"
 
 #. module: rma
 #: model:ir.model.fields,help:rma.field_rma_order_line__product_tracking
@@ -563,18 +563,18 @@ msgstr "Entrante"
 #: model:ir.model.fields,field_description:rma.field_rma_operation__in_route_id
 #: model:ir.model.fields,field_description:rma.field_rma_order_line__in_route_id
 msgid "Inbound Route"
-msgstr ""
+msgstr "Ruta de entrada"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma_operation__in_warehouse_id
 #: model:ir.model.fields,field_description:rma.field_rma_order_line__in_warehouse_id
 msgid "Inbound Warehouse"
-msgstr ""
+msgstr "Almacén de entrada"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma_order_line__qty_incoming
 msgid "Incoming Qty"
-msgstr ""
+msgstr "Cantidad en recepción"
 
 #. module: rma
 #: model:ir.model,name:rma.model_stock_location_route
@@ -702,7 +702,7 @@ msgstr ""
 #: selection:rma.order.line,delivery_policy:0
 #: selection:rma.order.line,receipt_policy:0
 msgid "Not required"
-msgstr ""
+msgstr "No requerido"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma_order__message_needaction_counter
@@ -783,12 +783,12 @@ msgstr "Origen"
 #. module: rma
 #: model_terms:ir.ui.view,arch_db:rma.view_rma_line_form
 msgid "Origin Inv"
-msgstr ""
+msgstr "Factura origen"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma_order_line__reference_move_id
 msgid "Originating Stock Move"
-msgstr ""
+msgstr "Movimiento de stock origen"
 
 #. module: rma
 #: model_terms:ir.ui.view,arch_db:rma.view_rma_form
@@ -809,18 +809,18 @@ msgstr "Saliente"
 #: model:ir.model.fields,field_description:rma.field_rma_operation__out_route_id
 #: model:ir.model.fields,field_description:rma.field_rma_order_line__out_route_id
 msgid "Outbound Route"
-msgstr ""
+msgstr "Ruta de salida"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma_operation__out_warehouse_id
 #: model:ir.model.fields,field_description:rma.field_rma_order_line__out_warehouse_id
 msgid "Outbound Warehouse"
-msgstr ""
+msgstr "Almacén de salida"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma_order_line__qty_outgoing
 msgid "Outgoing Qty"
-msgstr ""
+msgstr "Ctdad saliente"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma_add_stock_move__partner_id
@@ -887,7 +887,7 @@ msgstr ""
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma_order_line__price_unit
 msgid "Price Unit"
-msgstr ""
+msgstr "Precio unitario"
 
 #. module: rma
 #: model:ir.model,name:rma.model_procurement_group
@@ -923,7 +923,7 @@ msgstr "Ctdad Enviada"
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma_order_line__qty_received
 msgid "Qty Received"
-msgstr ""
+msgstr "Ctdad recibida"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma_order_line__qty_to_deliver
@@ -949,7 +949,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:rma.view_rma_line_form
 #: model_terms:ir.ui.view,arch_db:rma.view_rma_line_supplier_form
 msgid "Quantities"
-msgstr ""
+msgstr "Cantidades"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma_order_line_make_supplier_rma_item__product_qty
@@ -1198,7 +1198,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:rma.field_rma_operation__receipt_policy
 #: model:ir.model.fields,field_description:rma.field_rma_order_line__receipt_policy
 msgid "Receipts Policy"
-msgstr ""
+msgstr "Política de recepción"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma_order_line__name
@@ -1220,7 +1220,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:rma.view_rma_line_form
 #: model_terms:ir.ui.view,arch_db:rma.view_rma_line_supplier_form
 msgid "Request Approval"
-msgstr ""
+msgstr "Solicitar aprobación"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma_order_line__requested_by
@@ -1235,7 +1235,7 @@ msgstr ""
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma_order_line__product_qty
 msgid "Return Qty"
-msgstr ""
+msgstr "Cantidad a devolver"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_res_partner__rma_line_count
@@ -1286,7 +1286,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:rma.field_rma_operation__location_id
 #: model:ir.model.fields,field_description:rma.field_rma_order_line__location_id
 msgid "Send To This Company Location"
-msgstr ""
+msgstr "Enviar a esta ubicación de la compañía"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma_order_line__sequence
@@ -1371,7 +1371,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:rma.view_rma_line_form
 #, python-format
 msgid "Supplier RMA"
-msgstr ""
+msgstr "RMA de proveedor"
 
 #. module: rma
 #: code:addons/rma/models/stock_warehouse.py:124
@@ -1436,7 +1436,7 @@ msgstr "Términos y condiciones"
 #: model:ir.model.fields,field_description:rma.field_rma_operation__customer_to_supplier
 #: model:ir.model.fields,field_description:rma.field_rma_order_line__customer_to_supplier
 msgid "The customer will send to the supplier"
-msgstr ""
+msgstr "El cliente lo envía al proveedor"
 
 #. module: rma
 #: model:ir.model.fields,help:rma.field_rma_order__reference
@@ -1457,7 +1457,7 @@ msgstr ""
 #. module: rma
 #: selection:rma.order.line,state:0
 msgid "To Approve"
-msgstr ""
+msgstr "Pendiente de aprobar"
 
 #. module: rma
 #: model_terms:ir.ui.view,arch_db:rma.view_rma_rma_line_filter
@@ -1504,7 +1504,7 @@ msgstr "Tipo"
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma_order_line__under_warranty
 msgid "Under Warranty?"
-msgstr ""
+msgstr "¿Se encuentra en garantía?"
 
 #. module: rma
 #: model_terms:ir.ui.view,arch_db:rma.report_rma_order_line_document

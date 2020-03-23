@@ -45,7 +45,6 @@ class RmaRefund(models.TransientModel):
         if not rma_line_ids:
             return res
         assert active_model == 'rma.order.line', 'Bad context propagation'
-
         items = []
         lines = rma_line_obj.browse(rma_line_ids)
         if len(lines.mapped('partner_id')) > 1:
@@ -100,7 +99,10 @@ class RmaRefund(models.TransientModel):
             new_invoice.type in ['out_refund', 'out_invoice']) \
             else 'action_invoice_in_refund'
         result = self.env.ref('account.%s' % action).read()[0]
-        form_view = self.env.ref('account.invoice_supplier_form', False)
+        if new_invoice.type == 'out_refund':
+            form_view = self.env.ref('account.invoice_form', False)
+        else:
+            form_view = self.env.ref('account.invoice_supplier_form', False)
         result['views'] = [(form_view and form_view.id or False, 'form')]
         result['res_id'] = new_invoice.id
         return result
@@ -109,9 +111,9 @@ class RmaRefund(models.TransientModel):
     def prepare_refund_line(self, item, refund):
         accounts = item.product_id.product_tmpl_id._get_product_accounts()
         if item.line_id.type == 'customer':
-            account = accounts['stock_output']
+            account = accounts['expense']
         else:
-            account = accounts['stock_input']
+            account = accounts['income']
         if not account:
             raise ValidationError(_(
                 "Accounts are not configured for this product."))
