@@ -60,11 +60,12 @@ class RmaMakePicking(models.TransientModel):
 
     def find_procurement_group(self, item):
         if item.line_id.rma_id:
-            return self.env['procurement.group'].search([
-                ('rma_id', '=', item.line_id.rma_id.id)])
+            domain = [('rma_id', '=', item.line_id.rma_id.id)]
         else:
-            return self.env['procurement.group'].search([
-                ('rma_line_id', '=', item.line_id.id)])
+            domain = [('rma_line_id', '=', item.line_id.id)]
+        if item.line_id.sale_line_id:
+            domain.append(('sale_id', '=', item.line_id.sale_line_id.order_id.id))
+        return self.env['procurement.group'].search(domain)
 
     def _get_procurement_group_data(self, item):
         group_data = {
@@ -74,6 +75,8 @@ class RmaMakePicking(models.TransientModel):
             'rma_line_id': item.line_id.id if not item.line_id.rma_id else
             False,
         }
+        if item.line_id.sale_line_id:
+            group_data['sale_id'] = item.line_id.sale_line_id.order_id.id
         return group_data
 
     @api.model
@@ -124,7 +127,7 @@ class RmaMakePicking(models.TransientModel):
         procurement_data = {
             'name': line.rma_id and line.rma_id.name or line.name,
             'group_id': group,
-            'origin': line.name,
+            'origin': line.rma_id and line.rma_id.name or line.name,
             'warehouse_id': warehouse,
             'date_planned': time.strftime(DT_FORMAT),
             'product_id': item.product_id,
@@ -212,8 +215,18 @@ class RmaMakePicking(models.TransientModel):
         action = self.env.ref('stock.do_view_pickings')
         action = action.read()[0]
         if procurement:
-            pickings = self.env['stock.picking'].search(
-                [('origin', '=', procurement)]).ids
+            picking_objs = self.env['stock.picking'].search(
+                [('origin', '=', procurement)])
+            pickings = picking_objs.ids
+            batch = picking_objs.mapped('batch_id')
+            if not batch:
+                batch =self.env['stock.picking.batch'].create({
+                    'name': procurement,
+                    'picking_type_id': picking_objs.mapped('picking_type_id').id
+                })
+            picking_objs.write({'batch_id': batch[0].id})
+            for picking in picking_objs:
+                picking.sale_id = picking.move_lines.mapped('sale_line_id')[0].order_id.id
             if len(pickings) > 1:
                 action['domain'] = [('id', 'in', pickings)]
             else:

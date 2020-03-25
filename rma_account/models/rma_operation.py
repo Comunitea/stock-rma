@@ -10,5 +10,6 @@ class RmaOperation(models.Model):
     refund_policy = fields.Selection([
         ('no', 'No refund'), ('ordered', 'Based on Ordered Quantities'),
         ('delivered', 'Based on Delivered Quantities'),
-        ('received', 'Based on Received Quantities')], string="Refund Policy",
+        ('received', 'Based on Received Quantities'),
+        ('received_onsale', 'Based on Received Quantities from Sale Order')], string="Refund Policy",
         default='no')
