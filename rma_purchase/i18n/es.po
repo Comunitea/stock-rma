@@ -1,0 +1,436 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* rma_purchase
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-25 15:30+0000\n"
+"PO-Revision-Date: 2020-03-25 15:30+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: rma_purchase
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_order__origin_po_count
+msgid "# of Origin PO"
+msgstr "En origen PO"
+
+#. module: rma_purchase
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_order__po_count
+msgid "# of PO"
+msgstr "# de PO"
+
+#. module: rma_purchase
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_order_line__purchase_count
+msgid "# of Purchases"
+msgstr "# de Compras"
+
+#. module: rma_purchase
+#: model_terms:ir.ui.view,arch_db:rma_purchase.view_rma_add_purchase_button_form
+msgid "Add From Purchase Order"
+msgstr "Añadir desde Pedido de Compra"
+
+#. module: rma_purchase
+#: model:ir.actions.act_window,name:rma_purchase.action_rma_add_purchase
+msgid "Add Purchase Order"
+msgstr "Añadir pedido de compra"
+
+#. module: rma_purchase
+#: selection:rma.operation,purchase_policy:0
+#: selection:rma.order.line,purchase_policy:0
+msgid "Based on Delivered Quantities"
+msgstr "Basado en cantidades enviadas"
+
+#. module: rma_purchase
+#: selection:rma.operation,purchase_policy:0
+#: selection:rma.order.line,purchase_policy:0
+msgid "Based on Ordered Quantities"
+msgstr "Basado en cantidades pedidas"
+
+#. module: rma_purchase
+#: model_terms:ir.ui.view,arch_db:rma_purchase.view_rma_add_purchase
+#: model_terms:ir.ui.view,arch_db:rma_purchase.view_rma_order_line_make_purchase_order
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: rma_purchase
+#: model_terms:ir.ui.view,arch_db:rma_purchase.view_rma_add_purchase
+msgid "Confirm"
+msgstr "Confirmar"
+
+#. module: rma_purchase
+#: model_terms:ir.ui.view,arch_db:rma_purchase.view_rma_line_supplier_button_sale_form
+msgid "Create Purchase Order"
+msgstr "Crear pedido de compra"
+
+#. module: rma_purchase
+#: model_terms:ir.ui.view,arch_db:rma_purchase.view_rma_order_line_make_purchase_order
+msgid "Create Quotation"
+msgstr "Crear Presupuesto"
+
+#. module: rma_purchase
+#: model:ir.actions.act_window,name:rma_purchase.action_rma_order_line_make_purchase_order
+#: model_terms:ir.ui.view,arch_db:rma_purchase.view_rma_order_line_make_purchase_order
+msgid "Create RFQ"
+msgstr "Crear RFQ"
+
+#. module: rma_purchase
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_add_purchase__create_uid
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_order_line_make_purchase_order__create_uid
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_order_line_make_purchase_order_item__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: rma_purchase
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_add_purchase__create_date
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_order_line_make_purchase_order__create_date
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_order_line_make_purchase_order_item__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: rma_purchase
+#: model_terms:ir.ui.view,arch_db:rma_purchase.view_rma_add_purchase
+msgid "Customer"
+msgstr "Cliente"
+
+#. module: rma_purchase
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_order_line_make_purchase_order_item__name
+msgid "Description"
+msgstr "Descripción"
+
+#. module: rma_purchase
+#: model_terms:ir.ui.view,arch_db:rma_purchase.view_rma_order_line_make_purchase_order
+msgid "Details"
+msgstr "Detalles"
+
+#. module: rma_purchase
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_add_purchase__display_name
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_order_line_make_purchase_order__display_name
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_order_line_make_purchase_order_item__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: rma_purchase
+#: code:addons/rma_purchase/wizards/rma_order_line_make_purchase_order.py:101
+#, python-format
+msgid "Enter a positive quantity."
+msgstr "Añadir una cantidad positiva"
+
+#. module: rma_purchase
+#: code:addons/rma_purchase/wizards/rma_order_line_make_purchase_order.py:66
+#, python-format
+msgid "Enter a supplier."
+msgstr "Añadir un Proveedor"
+
+#. module: rma_purchase
+#: model_terms:ir.ui.view,arch_db:rma_purchase.view_rma_order_line_make_purchase_order
+msgid "Existing Quotation to update:"
+msgstr "Presupuesto existente para actualizar"
+
+#. module: rma_purchase
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_order_line_make_purchase_order_item__free_of_charge
+msgid "Free of Charge"
+msgstr "Libre de cargas"
+
+#. module: rma_purchase
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_add_purchase__id
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_order_line_make_purchase_order__id
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_order_line_make_purchase_order_item__id
+msgid "ID"
+msgstr "ID"
+
+#. module: rma_purchase
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_order_line_make_purchase_order__item_ids
+msgid "Items"
+msgstr "Elementos"
+
+#. module: rma_purchase
+#: model:ir.model,name:rma_purchase.model_rma_make_picking_wizard_item
+msgid "Items to receive"
+msgstr "Elementos a recibir"
+
+#. module: rma_purchase
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_add_purchase____last_update
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_order_line_make_purchase_order____last_update
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_order_line_make_purchase_order_item____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: rma_purchase
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_add_purchase__write_uid
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_order_line_make_purchase_order__write_uid
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_order_line_make_purchase_order_item__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización de"
+
+#. module: rma_purchase
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_add_purchase__write_date
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_order_line_make_purchase_order__write_date
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_order_line_make_purchase_order_item__write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: rma_purchase
+#: model:ir.model,name:rma_purchase.model_rma_order_line_make_purchase_order
+msgid "Make Purchases Order from RMA Line"
+msgstr "Hacer Pedidos de Compra desde la línea de RMA"
+
+#. module: rma_purchase
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_order_line__manual_purchase_line_ids
+msgid "Manual Purchase Order Lines"
+msgstr "Líneas del Pedido de Compra Manuales"
+
+#. module: rma_purchase
+#: model_terms:ir.ui.view,arch_db:rma_purchase.view_rma_order_line_make_purchase_order
+msgid "New Purchases Order details:"
+msgstr "Nuevos detalles de Pedidos de Compra"
+
+#. module: rma_purchase
+#: selection:rma.operation,purchase_policy:0
+#: selection:rma.order.line,purchase_policy:0
+msgid "Not required"
+msgstr "No requerido"
+
+#. module: rma_purchase
+#: code:addons/rma_purchase/wizards/rma_order_line_make_purchase_order.py:57
+#, python-format
+msgid "Only RMA lines from the same partner can be processed at the same time"
+msgstr "Solamente pueden ser procesadas al mismo tiempo, las líneas de RMA de la misma empresa."
+
+#. module: rma_purchase
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_add_purchase__purchase_id
+msgid "Order"
+msgstr "Pedido"
+
+#. module: rma_purchase
+#: model_terms:ir.ui.view,arch_db:rma_purchase.view_rma_supplier_form
+msgid "Origin PO"
+msgstr "PO Origen"
+
+#. module: rma_purchase
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_order_line__purchase_order_line_id
+msgid "Originating Purchase Line"
+msgstr "Línea de compra originaria"
+
+#. module: rma_purchase
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_add_purchase__partner_id
+msgid "Partner"
+msgstr "Empresa"
+
+#. module: rma_purchase
+#: code:addons/rma_purchase/models/rma_order_line.py:125
+#: code:addons/rma_purchase/wizards/rma_add_purchase.py:57
+#, python-format
+msgid "Please define a rma route."
+msgstr "Por favor, defina la ruta de RMA"
+
+#. module: rma_purchase
+#: code:addons/rma_purchase/models/rma_order_line.py:132
+#: code:addons/rma_purchase/wizards/rma_add_purchase.py:63
+#, python-format
+msgid "Please define a warehouse with a default rma location."
+msgstr "Por favor, defina un almacén con la localización RMA por defecto"
+
+#. module: rma_purchase
+#: code:addons/rma_purchase/models/rma_order_line.py:119
+#: code:addons/rma_purchase/wizards/rma_add_purchase.py:52
+#, python-format
+msgid "Please define an operation first"
+msgstr "Por favor defina primero una operación"
+
+#. module: rma_purchase
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_order_line_make_purchase_order_item__product_id
+msgid "Product"
+msgstr "Producto"
+
+#. module: rma_purchase
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_make_picking_wizard_item__purchase_order_line_id
+msgid "Purchase Line"
+msgstr "Líne de compra"
+
+#. module: rma_purchase
+#: model_terms:ir.ui.view,arch_db:rma_purchase.view_rma_line_form
+msgid "Purchase Lines"
+msgstr "Líneas de compra"
+
+#. module: rma_purchase
+#: model:ir.actions.act_window,name:rma_purchase.action_rma_line_purchase
+#: model:ir.model,name:rma_purchase.model_purchase_order
+msgid "Purchase Order"
+msgstr "Pedido de compra"
+
+#. module: rma_purchase
+#: model:ir.model,name:rma_purchase.model_purchase_order_line
+msgid "Purchase Order Line"
+msgstr "Línea pedido de compra"
+
+#. module: rma_purchase
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_add_purchase__purchase_line_ids
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_order_line__purchase_order_line_ids
+#: model_terms:ir.ui.view,arch_db:rma_purchase.view_rma_add_purchase
+msgid "Purchase Order Lines"
+msgstr "Líneas pedido de compra"
+
+#. module: rma_purchase
+#: model_terms:ir.ui.view,arch_db:rma_purchase.view_rma_line_form
+#: model_terms:ir.ui.view,arch_db:rma_purchase.view_rma_supplier_form
+msgid "Purchase Orders"
+msgstr "Pedidos de compra"
+
+#. module: rma_purchase
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_operation__purchase_policy
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_order_line__purchase_policy
+msgid "Purchase Policy"
+msgstr "Política de compras"
+
+#. module: rma_purchase
+#: code:addons/rma_purchase/models/rma_operation.py:23
+#, python-format
+msgid "Purchase Policy can only apply to supplier operations"
+msgstr "La política de compras solamente puede aplicarse a operaciones de proveedores"
+
+#. module: rma_purchase
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_order_line_make_purchase_order__purchase_order_id
+msgid "Purchases Order"
+msgstr "Pedido de compra"
+
+#. module: rma_purchase
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_order_line__qty_purchased
+msgid "Qty Purchased"
+msgstr "Cant. Comprada"
+
+#. module: rma_purchase
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_order_line__qty_to_purchase
+msgid "Qty To Purchase"
+msgstr "Cant. para comprar"
+
+#. module: rma_purchase
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_order_line_make_purchase_order_item__product_qty
+msgid "Quantity to purchase"
+msgstr "Cantidad para comprar"
+
+#. module: rma_purchase
+#: model:ir.model,name:rma_purchase.model_rma_order_line
+#: model:ir.model.fields,field_description:rma_purchase.field_purchase_order_line__rma_line_id
+msgid "RMA"
+msgstr "RMA"
+
+#. module: rma_purchase
+#: model:ir.model,name:rma_purchase.model_rma_order
+msgid "RMA Group"
+msgstr "Grupo de RMA"
+
+#. module: rma_purchase
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_order_line_make_purchase_order_item__line_id
+msgid "RMA Line"
+msgstr "Línea de RMA"
+
+#. module: rma_purchase
+#: model:ir.ui.view,name:rma_purchase.view_rma_order_line_make_purchase_order
+msgid "RMA Line Make Purchase Order"
+msgstr "La línea de RMA hace un pedido de compra"
+
+#. module: rma_purchase
+#: model:ir.model,name:rma_purchase.model_rma_order_line_make_purchase_order_item
+msgid "RMA Line Make Purchase Order Item"
+msgstr "La línea de RMA introduce un producto del Pedido de Compra"
+
+#. module: rma_purchase
+#: model:ir.model,name:rma_purchase.model_rma_operation
+msgid "RMA Operation"
+msgstr "Operación RMA"
+
+#. module: rma_purchase
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_add_purchase__rma_id
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_order_line_make_purchase_order_item__rma_id
+msgid "RMA Order"
+msgstr "Pedido RMA"
+
+#. module: rma_purchase
+#: code:addons/rma_purchase/models/rma_order_line.py:174
+#, python-format
+msgid "RMA customer and originating purchase line customer doesn't match."
+msgstr "El cliente RMA y el cliente de la línea de compra originado no coinciden"
+
+#. module: rma_purchase
+#: model_terms:ir.ui.view,arch_db:rma_purchase.view_rma_add_purchase
+msgid "Select Purchase Order Lines to Add"
+msgstr "Seleccione pedidos de compra para añadir"
+
+#. module: rma_purchase
+#: model_terms:ir.ui.view,arch_db:rma_purchase.view_rma_add_purchase
+msgid "Select Purchase Order from customer"
+msgstr "Seleccione pedidos de compra desde cliente"
+
+#. module: rma_purchase
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_order_line__purchase_id
+msgid "Source Purchase Order"
+msgstr "Busque Pedidos de Compra"
+
+#. module: rma_purchase
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_order_line_make_purchase_order__partner_id
+msgid "Supplier"
+msgstr "Proveedor"
+
+#. module: rma_purchase
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_order_line_make_purchase_order_item__product_uom_id
+msgid "UoM"
+msgstr "UdM"
+
+#. module: rma_purchase
+#: model_terms:ir.ui.view,arch_db:rma_purchase.view_rma_add_purchase
+msgid "Vendor"
+msgstr "Proveedor"
+
+#. module: rma_purchase
+#: model:ir.model.fields,field_description:rma_purchase.field_rma_order_line_make_purchase_order_item__wiz_id
+msgid "Wizard"
+msgstr "Asistente"
+
+#. module: rma_purchase
+#: model:ir.model,name:rma_purchase.model_rma_add_purchase
+msgid "Wizard to add rma lines"
+msgstr "Asistente para añadir línes de RMA"
+
+#. module: rma_purchase
+#: model:ir.model,name:rma_purchase.model_rma_make_picking_wizard
+msgid "Wizard to create pickings from rma lines"
+msgstr "Asistente para crear pickings desde las líneas de RMA"
+
+#. module: rma_purchase
+#: model_terms:ir.ui.view,arch_db:rma_purchase.view_rma_add_purchase
+msgid "or"
+msgstr "o"
+
+#. module: rma_purchase
+#: model:ir.ui.view,name:rma_purchase.view_rma_add_purchase
+msgid "rma.add.purchase"
+msgstr ""
+
+#. module: rma_purchase
+#: model:ir.ui.view,name:rma_purchase.rma_operation_form
+msgid "rma.operation.form - rma_purchase"
+msgstr ""
+
+#. module: rma_purchase
+#: model:ir.ui.view,name:rma_purchase.rma_operation_tree
+msgid "rma.operation.tree - rma_purchase"
+msgstr ""
+
+#. module: rma_purchase
+#: model:ir.ui.view,name:rma_purchase.view_rma_add_purchase_button_form
+#: model:ir.ui.view,name:rma_purchase.view_rma_line_form
+#: model:ir.ui.view,name:rma_purchase.view_rma_line_supplier_button_sale_form
+msgid "rma.order.line.supplier.form"
+msgstr ""
+
+#. module: rma_purchase
+#: model:ir.ui.view,name:rma_purchase.view_rma_supplier_form
+msgid "rma.order.supplier.form"
+msgstr ""
+
