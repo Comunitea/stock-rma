@@ -41,7 +41,7 @@ msgstr "Fecha contable"
 #: code:addons/rma_account/wizards/rma_refund.py:116
 #, python-format
 msgid "Accounts are not configured for this product."
-msgstr ""
+msgstr "Las cuentas no están configuradas para este roducto"
 
 #. module: rma_account
 #: model_terms:ir.ui.view,arch_db:rma_account.view_rma_add_invoice_button_form
@@ -59,7 +59,7 @@ msgstr "Añadir factura"
 #. module: rma_account
 #: model:ir.model.fields,field_description:rma_account.field_account_invoice__add_rma_line_id
 msgid "Add from RMA line"
-msgstr ""
+msgstr "Añadir desde línea de RMA"
 
 #. module: rma_account
 #: model:ir.model.fields,field_description:rma_account.field_rma_add_invoice__attachment_ids
@@ -112,7 +112,7 @@ msgstr "Crear reembolso"
 #. module: rma_account
 #: model:ir.model.fields,help:rma_account.field_account_invoice__add_rma_line_id
 msgid "Create a refund in based on an existing rma_line"
-msgstr ""
+msgstr "Crear un reembolso basado en uan linea de rma"
 
 #. module: rma_account
 #: model:ir.model.fields,field_description:rma_account.field_rma_add_invoice__create_uid
@@ -193,7 +193,7 @@ msgstr "Líneas de factura"
 #. module: rma_account
 #: model:ir.model.fields,help:rma_account.field_rma_order_line__invoice_address_id
 msgid "Invoice address for current rma order."
-msgstr ""
+msgstr "Dirección de factura para la orden de rma actual" 
 
 #. module: rma_account
 #: model:ir.model.fields,field_description:rma_account.field_rma_refund__item_ids
@@ -236,7 +236,7 @@ msgstr "No requerido"
 #: code:addons/rma_account/wizards/rma_refund.py:53
 #, python-format
 msgid "Only RMAs from the same partner can be processed at the same time."
-msgstr ""
+msgstr "Solo RMAs del mismo partner se pueden procesar al mismo tiempo"
 
 #. module: rma_account
 #: model_terms:ir.ui.view,arch_db:rma_account.view_rma_form
@@ -257,28 +257,28 @@ msgstr "Empresa"
 #. module: rma_account
 #: model:ir.model.fields,field_description:rma_account.field_rma_order_line__invoice_address_id
 msgid "Partner invoice address"
-msgstr ""
+msgstr "Dirección de facturación"
 
 #. module: rma_account
 #: code:addons/rma_account/models/rma_order_line.py:128
 #: code:addons/rma_account/wizards/rma_add_invoice.py:60
 #, python-format
 msgid "Please define a warehouse with a default rma location"
-msgstr ""
+msgstr "Por favor defina un alamcén con una ubicación de RMA pro defecto"
 
 #. module: rma_account
 #: code:addons/rma_account/models/rma_order_line.py:115
 #: code:addons/rma_account/wizards/rma_add_invoice.py:48
 #, python-format
 msgid "Please define an operation first"
-msgstr ""
+msgstr "Por favor defina primero una operación"
 
 #. module: rma_account
 #: code:addons/rma_account/models/rma_order_line.py:121
 #: code:addons/rma_account/wizards/rma_add_invoice.py:53
 #, python-format
 msgid "Please define an rma route"
-msgstr ""
+msgstr "Por favor defina una ruta de RMA"
 
 #. module: rma_account
 #: model:ir.model.fields,field_description:rma_account.field_rma_refund_item__product
@@ -329,13 +329,13 @@ msgstr "Grupo RMA"
 #. module: rma_account
 #: model:ir.model,name:rma_account.model_rma_order_line_make_supplier_rma
 msgid "RMA Line Make Supplier RMA"
-msgstr ""
+msgstr "La linea de RMA cea un RMA de proveedor"
 
 #. module: rma_account
 #: model_terms:ir.ui.view,arch_db:rma_account.view_invoice_line_form
 #: model_terms:ir.ui.view,arch_db:rma_account.view_rma_refund
 msgid "RMA Lines"
-msgstr ""
+msgstr "Líneas RMA"
 
 #. module: rma_account
 #: model:ir.model,name:rma_account.model_rma_refund_item
